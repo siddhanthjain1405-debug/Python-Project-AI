@@ -22,7 +22,8 @@ settings = load_settings()
 st.markdown(
     """
     <style>
-    .block-container {max-width: 1100px; padding-top: 2rem;}
+    .block-container {max-width: 1100px; padding-top: 4.5rem !important;}
+    .app-title {margin-top: 0.75rem !important;}
     [data-testid="stChatMessage"] {border-radius: 14px; padding: 0.6rem 0.9rem;}
     [data-testid="stSidebar"] {border-right: 1px solid rgba(128,128,128,0.2);}
     .app-title {font-size: 1.6rem; font-weight: 700; margin-bottom: 0;}
