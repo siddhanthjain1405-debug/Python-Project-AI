@@ -1,0 +1,8 @@
+# Lower bounds only: exact versions could not be verified in the build environment
+# (no package-index access). Pin them with `pip freeze` after your first successful install.
+streamlit>=1.40
+chromadb>=0.5
+openai>=1.50
+python-dotenv>=1.0
+# Newer SQLite for ChromaDB on hosts that ship an old one (e.g. Streamlit Community Cloud)
+pysqlite3-binary>=0.5.2; sys_platform == "linux"
